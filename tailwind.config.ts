@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage:{
+        headerBg:"linear-gradient(to right, #ee6055 30%, #ffd7f 100%)"
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
